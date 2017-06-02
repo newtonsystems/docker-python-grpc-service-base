@@ -1,4 +1,4 @@
-# A Docker Base Image for a python gRPC microservice
+# A docker base image for a python gRPC microservice
 
 - gRPC support for python
 - Python development tools including pip
@@ -8,7 +8,7 @@
 
 
 ## Why do you need this?
-- Speed up docker builds by using this as your base image
+- Speeds up docker builds by using this its base image
 
 
 ## How to Build the Docker Image
@@ -39,7 +39,7 @@ Any feedback or comments  would be greatly appreciated: <james.tarball@newtonsys
 
 ### Issues
 
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/newtonsystems/docker-nginx-reverse-proxy/issues).
+If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/newtonsystems/docker-python-grpc-service-base/issues).
 
 You can also reach me by email. I would be happy to help  <james.tarball@newtonsystems.co.uk>
 
