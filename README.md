@@ -1,3 +1,16 @@
+# docker-python-grpc-service-base
+
+[![](https://images.microbadger.com/badges/image/newtonsystems/docker-python-grpc-service-base.svg)](https://microbadger.com/images/newtonsystems/docker-python-grpc-service-base "Get your own image badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/version/newtonsystems/docker-python-grpc-service-base.svg)](https://microbadger.com/images/newtonsystems/docker-python-grpc-service-base "Get your own version badge on microbadger.com")
+
+Available from docker hub as [newtonsystems/tools/docker-python-grpc-service-base](https://hub.docker.com/r/newtonsystems/docker-python-grpc-service-base/)
+
+#### Supported tags and respective `Dockerfile` links
+
+-    [`v0.1.0`, `latest` (/Dockerfile*)](https://github.com/newtonsystems/devops/blob/master/tools/docker-python-grpc-service-base/Dockerfile)
+
+
 # A docker base image for a python gRPC microservice
 
 - gRPC support for python
@@ -29,6 +42,19 @@
 ```
 	FROM newtonsystems/docker-python-grpc-service-base:<VERSION>
 
+```
+
+
+## How to do a release
+- Make sure you are using docker-utils 
+i.e.
+
+```bash
+export PATH="~/<LOCATION>/docker-utils/bin:$PATH"
+```
+
+```
+build-tag-push-dockerfile.py  --image "newtonsystems/docker-python-grpc-service-base" --version 0.1.0 --dockerhub_release --github_release
 ```
 
 
