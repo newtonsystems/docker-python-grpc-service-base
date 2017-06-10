@@ -27,7 +27,7 @@ ENV APP_DIR /app
 ENV BUILD_DIR /tmp
 ENV PYTHON_PACKAGE_LOCATION /usr/local/src
 
-ENV DEVPI_INDEX_URL http://34.203.112.178:3141/newtonsystems/master
+ENV DEVPI_SERVER https://devpi.newtonsystems.co.uk
 
 
 RUN apk add --update --virtual .build-deps \
