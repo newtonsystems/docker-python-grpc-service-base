@@ -10,7 +10,7 @@
 # Our aim to make this image as small as possible
 # We use alpine over Debian as its only 5MB
 FROM python:2.7.13-alpine
-LABEL maintainer "james.tarball@newtonsystems.co.uk"
+LABEL maintainer "james.tarball@googlemail.co.uk"
 
 ENV TERM=xterm
 
@@ -27,7 +27,7 @@ ENV APP_DIR /app
 ENV BUILD_DIR /tmp
 ENV PYTHON_PACKAGE_LOCATION /usr/local/src
 
-ENV DEVPI_SERVER https://devpi.newtonsystems.co.uk
+ENV DEVPI_SERVER https://devpi.jtarball.co.uk
 
 
 RUN apk add --update --virtual .build-deps \
