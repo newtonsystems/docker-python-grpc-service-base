@@ -2,13 +2,13 @@
 
 [![](https://images.microbadger.com/badges/image/newtonsystems/docker-python-grpc-service-base.svg)](https://microbadger.com/images/newtonsystems/docker-python-grpc-service-base "Get your own image badge on microbadger.com")
 
-[![](https://images.microbadger.com/badges/version/newtonsystems/docker-python-grpc-service-base:0.1.1.svg)](https://microbadger.com/images/newtonsystems/docker-python-grpc-service-base:0.1.1 "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/newtonsystems/docker-python-grpc-service-base:0.1.2.svg)](https://microbadger.com/images/newtonsystems/docker-python-grpc-service-base:0.1.2 "Get your own version badge on microbadger.com")
 
 Available from docker hub as [newtonsystems/tools/docker-python-grpc-service-base](https://hub.docker.com/r/newtonsystems/docker-python-grpc-service-base/)
 
 #### Supported tags and respective `Dockerfile` links
 
--    [`v0.1.1`, `v0.1.0`, `latest` (/Dockerfile*)](https://github.com/newtonsystems/docker-python-grpc-service-base/blob/master/Dockerfile)
+-    [[`v0.1.2`, `v0.1.1`, `v0.1.0`, `latest` (/Dockerfile*)](https://github.com/newtonsystems/docker-python-grpc-service-base/blob/master/Dockerfile)
 
 
 # A docker base image for a python gRPC microservice
